@@ -21,7 +21,16 @@ describe ('Card', function () {
     assert.strictEqual(card.name, "Superman")
   });
 
-  
+  it('should have intelligence', function() {
+    assert.strictEqual(card.intelligence, 6)
+  })
 
+  it('should have strength', function() {
+    assert.strictEqual(card.strength, 9)
+  })
+
+  it('should have agility', function() {
+    assert.strictEqual(card.agility, 7)
+  })
 
 })
